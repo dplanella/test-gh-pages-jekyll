@@ -1,7 +1,7 @@
 {"0": {
     "doc": "About",
     "title": "About this site",
-    "content": "Test . ",
+    "content": "graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; . ",
     "url": "https://dplanella.github.io/test-gh-pages-jekyll/about.html#about-this-site",
     "relUrl": "/about.html#about-this-site"
   },"1": {
