@@ -1,0 +1,28 @@
+### Site metadata
+
+# If you don't set these, they will be inferred from the repo's description on GitHub.
+title: Jekyll GH Actions Quickstart
+description: Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages
+
+### Build settings
+
+url: https://dplanella.github.io
+baseurl: /test-gh-pages-jekyll
+
+# remote_theme: sighingnow/jekyll-gitbook
+theme: just-the-docs
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-mermaid
+
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: page
+
+exclude:
+  - docs/
+  - LICENSE
+  - Makefile
