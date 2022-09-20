@@ -14,7 +14,6 @@ theme: just-the-docs
 
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-- jekyll-mermaid
 
 defaults:
   - scope:
@@ -27,3 +26,8 @@ exclude:
   - LICENSE
   - Makefile
   - README.md
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.7"
