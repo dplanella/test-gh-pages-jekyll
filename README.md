@@ -2,6 +2,22 @@
  
 Test
 
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+
+``` mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## Test header
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Convallis tellus id interdum velit. Sit amet nulla facilisi morbi tempus iaculis. Tristique senectus et netus et malesuada fames ac turpis. Eu non diam phasellus vestibulum lorem. 
