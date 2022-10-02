@@ -32,4 +32,9 @@ mermaid:
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.7"
 
+# Light modifications to the just-the-docs default theme
+# See https://just-the-docs.github.io/just-the-docs/docs/customization/#define-a-custom-scheme
+# and https://just-the-docs.github.io/just-the-docs/docs/customization/#use-a-custom-scheme
 color_scheme: primer
+
+logo: "/assets/images/lf-stacked-color.png"
